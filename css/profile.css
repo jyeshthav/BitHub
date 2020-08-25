@@ -1,0 +1,123 @@
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'Lato', sans-serif, 'arial', 'helvetica';
+  height: 100%;
+  width: 100%;
+}
+
+.img-holder img {
+  height: 100%;
+  width: 100%;
+}
+
+.img-holder {
+  height: 15rem;
+  width: 15rem;
+  max-width: 15rem;
+}
+
+.stats span {
+  font-size: 32px;
+}
+
+
+.stats .d-flex {
+  margin-right: 1rem;
+}
+
+.stats .following {
+  margin-right: 0;
+}
+
+.username span {
+  font-size: 32px;
+}
+
+.unfollow{
+  color: black;
+  background-color: white;
+}
+
+.unfollow:hover{
+  color: white;
+  background-color: black;
+}
+
+
+.follow:hover{
+  color: black;
+  background-color: white;
+}
+
+post:hover{
+  box-shadow: 0px 0px 6px #999999;
+}
+
+.post-holder a{
+  text-decoration: underline;
+  color: black;
+}
+
+.content .post-holder .post{
+  background-color: #F8F9FA;
+  height: 40vh!important;
+  max-height: 40vh;
+  overflow: hidden;
+}
+
+
+.post-holder{
+  margin-bottom: 1rem;
+}
+
+.social{
+  margin-top: 0.5rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.social span{
+  height: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.social button{
+  background-color: inherit;
+  border: none;
+}
+
+.social i{
+  color: #222222;
+  font-size: 2rem;
+}
+
+
+.perm,.social .fas{
+  color: #0055B7!important;
+}
+
+social i:hover{
+  color: #00B7FF;
+}
+
+@media only screen and (max-width: 376px) {
+  .username span {
+    font-size: 24px;
+  }
+
+  .stats span {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .username span {
+    font-size: 20px;
+  }
+
+  .stats span {
+    font-size: 20px;
+  }
+}

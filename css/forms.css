@@ -1,0 +1,42 @@
+body{
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'Lato', sans-serif, 'arial', 'helvetica';
+  margin-top: 10vh;
+}
+
+.fields{
+  display: block;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo-img{
+  height: 17rem;
+  width: 17rem;
+}
+
+.input-group-text{
+  background-color: #007BFF;
+  color: #FFFFFF;
+  border: #00cdff;
+}
+
+.linker{
+  margin-top: 1rem;
+}
+
+.btn{
+  padding: 0.4rem 1rem;
+  font-size: 1.1rem;
+  border-radius: 0.2rem;
+}
+
+@media only screen and (max-width: 768px){
+  .fields{
+    width: 100%;
+  }
+}

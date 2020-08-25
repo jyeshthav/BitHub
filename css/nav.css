@@ -1,0 +1,58 @@
+nav{
+  background-color: #000000;
+  padding: 0.25rem 1rem!important;
+  margin-bottom: 1rem;
+}
+
+nav a{
+  font-size: 1.5rem;
+}
+
+#collapsibleNavbar li.hover{
+  border:none;
+  position: relative;
+}
+
+#collapsibleNavbar li.hover:hover{
+  border: none;
+}
+
+#collapsibleNavbar li:hover {
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.hover::after{
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 1px;
+  left: 50%;
+  background-color: white;
+  bottom:0;
+  transition: all ease-in-out .2s;
+}
+
+.hover:hover::after{
+  width: 100%;
+  left: 0;
+}
+
+i.fas{
+  font-size: 1.5rem;
+}
+
+a.nav-link span{
+  display: none;
+} 
+
+.errors-display{
+  position: fixed;
+  top: 2vh;
+  background-color: rgba(200, 10, 10, 0.1);
+}
+
+@media only screen and (max-width: 575px){  
+  a.nav-link span{
+    display: inline;
+  }  
+}

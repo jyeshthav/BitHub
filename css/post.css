@@ -1,0 +1,89 @@
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'Lato', sans-serif, 'arial', 'helvetica';
+  height: 100%;
+  width: 100%;
+}
+
+.user-stuff{
+  border-right: 1px solid rgba(100, 100, 100, 0.5); 
+}
+
+.img-holder{
+  display: block;
+  height: 30vh;
+  width: 30vh;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0.5rem;
+}
+
+.img-holder img{
+  height: 100%;
+  width: 100%;
+}
+
+.user-details a{
+  color: #FFFFFF;
+}
+
+.post{
+  margin-bottom: 1rem;
+  border: 1px solid rgba(100, 100, 100, 0.5);
+  border-radius: 0.5rem;
+}
+
+.post:hover{
+  box-shadow: 0px 0px 3px #FFFFFF;
+}
+
+.files{
+  margin-bottom: 3rem;
+}
+
+.files a{
+  background-color: #000000;
+  color: #FFFFFF;
+  border: 1px solid rgba(200, 200, 200, 0.5);
+}
+
+.social{
+  margin-top: 0.5rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.social span{
+  height: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.social button{
+  background-color: #000000;
+  border: none;
+}
+
+.social i{
+  color: #BBBBBB;
+  font-size: 2rem;
+}
+
+
+.perm,.social .fas{
+  color: #0055B7!important;
+}
+
+social i:hover{
+  color: #00B7FF;
+}
+
+.sidebar{
+  
+}
+
+.comment-box{
+  border-top: 1px solid rgba(100, 100, 100, 0.5);
+  padding: 1rem;
+}

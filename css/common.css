@@ -1,0 +1,24 @@
+.errors{
+  display: none;
+  position: absolute;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  right: 0;
+  color: black;
+  font-weight: 700;
+  left: 30vw;
+  text-align: center;
+  width: 40vw;
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.errors p{
+  margin: 1rem;
+}
+
+.cross{
+  display: none;
+  position: absolute;
+  top: 0rem;
+  right: 1rem;
+}

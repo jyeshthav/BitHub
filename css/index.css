@@ -1,0 +1,25 @@
+body{
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  font-family: 'Lato', sans-serif, 'arial', 'helvetica';
+  color: #FFFFFF;
+  margin-top: 10vh;
+}
+
+.logo-img{
+  max-height: 17rem;
+  max-width: 17rem;
+  margin-left: auto!important;
+  margin-right: auto!important; 
+}
+
+.col-lg-12 .options button{
+  margin-bottom: 1rem;
+  padding: 0.4rem 1rem;
+
+}
+
+.col-lg-12 .options h3{
+  padding: 0.6rem;
+}

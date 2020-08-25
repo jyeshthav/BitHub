@@ -1,0 +1,15 @@
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'Lato', sans-serif, 'arial', 'helvetica';
+  height: 100%;
+  width: 100%;
+}
+
+.search-input{
+  height: 2.5rem;
+}
+
+.search-btn i{
+  font-size: 1.5rem;
+}

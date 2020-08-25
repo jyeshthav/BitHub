@@ -1,0 +1,19 @@
+body{
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'Lato', sans-serif, 'arial', 'helvetica';
+  margin-top: 10vh;
+}
+
+.logo-img{
+  height: 17rem;
+  width: 17rem;
+}
+.fields{
+  display: block;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
